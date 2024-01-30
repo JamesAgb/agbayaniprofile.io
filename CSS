@@ -1,0 +1,94 @@
+/* Navbar */
+.navbar {
+    background-color: #fff; /* Navbar background color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; 
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Navbar link color */
+}
+
+/* Hero Section */
+#hero {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 150px 0; /* Adjust padding for better centering */
+}
+
+/* About Me Section */
+#about {
+    padding: 50px 0;
+}
+
+
+#projects {
+    padding: 50px 0;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+}
+
+.animated-landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('your-background-image.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
